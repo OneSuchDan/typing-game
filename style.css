@@ -1,0 +1,50 @@
+/* inside style.css */
+.highlight {
+    background-color: rgb(3, 24, 37);
+    border-radius: 10%;
+    color: white;
+}
+
+.error {
+    background-color: lightcoral;
+    border: red;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 10%;
+}
+button{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius:  10px;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.container > div{
+    display: flex;
+    flex-direction: column;
+}
